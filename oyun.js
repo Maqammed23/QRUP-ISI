@@ -24,11 +24,15 @@ function Quiz() {
 
   if (dogru === 0) {
     document.body.style.backgroundColor = "red";
+    document.write("Siz Ulduzdunuz")
   } else if (dogru === 1) {
     document.body.style.backgroundColor = "yellow";
+    document.write("Siz Ulduzdunuz")
   } else if (dogru === 2) {
     document.body.style.backgroundColor = "blue";
+    document.write("Teessuf ki Siz Ulduzdunuz")
   } else if (dogru === 3) {
     document.body.style.backgroundColor = "green";
+    document.write("Siz 50 faiz endirim qazandiniz.")
   }
 }
