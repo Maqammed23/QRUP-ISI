@@ -1,22 +1,22 @@
 function Quiz() {
   let dogru = 0;
   let sual1 = prompt(
-    "Bu işarələmə dili vasitəsi ilə web səhifəmizin strukturunu qururuq."
+    "McDonald's hansı ölkədə yaradılıb?(Olkenin Qisaldilma formatini yaz)"
   );
-  if (sual1 && sual1.toUpperCase() === "HTML") {
+  if (sual1 && sual1.toUpperCase() === "ABŞ") {
     dogru++;
   }
 
   let sual2 = prompt(
-    "Bu işarələmə dili vasitəsi ilə web səhifəmizin dizaynını qururuq."
+    "McDonald's-ın ən məşhur hamburgerinin adı nədir?"
   );
-  if (sual2 && sual2.toUpperCase() === "CSS") {
+  if (sual2 && sual2.toUpperCase() === "Big Mac") {
     dogru++;
   }
   let sual3 = prompt(
-    "Bu proqramlaşdırma dili vasitəsi ilə web səhifəmizin funksionallığını qururuq."
+    "McDonald's loqosunda hansı hərf var?"
   );
-  if (sual3 && sual3.toUpperCase() === "JS") {
+  if (sual3 && sual3.toUpperCase() === "M") {
     dogru++;
   }
   document.getElementById("result").innerText =
