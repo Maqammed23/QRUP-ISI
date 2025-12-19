@@ -10,3 +10,37 @@
     margin-right: 12px;
     background-color: rgba(245, 245, 245, 0.263);
 }
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    align-items: center;
+}
+#image{
+    width: 36vw;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+body{
+   background-color: bisque;
+}
+button{
+    border-radius: 15px;
+    width: 8vw;
+}
+#sari{
+    background-color: rgb(246, 169, 2);
+    font-size: large;
+    border-style: hidden;
+}
+#ag{
+     background-color: white;
+     color: red;
+     border-color: red;
+    font-size: medium;
+}
+p{
+    font-size: larger;
+}
