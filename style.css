@@ -44,3 +44,16 @@ button{
 p{
     font-size: larger;
 }
+#ggg{
+    height: 40vh;
+    width: 35vw;
+}
+.burgers{
+    width: 40vw;
+    height: 40vh;
+}
+#flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
