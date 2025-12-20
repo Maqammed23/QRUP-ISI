@@ -36,3 +36,16 @@ img{
     width: 35vw;
     height: 30vh;
 }
+
+.old-price {
+      text-decoration: line-through;
+      color: gray;
+      margin-right: 8px;
+      font-size: 18px;
+    }
+
+    .new-price {
+      color: red;
+      font-size: 22px;
+      font-weight: bold;
+    }
