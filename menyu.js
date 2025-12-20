@@ -18,3 +18,4 @@ function snackWrap() {
     alert(say + " ədəd Snack Wrap sifariş olundu 🌯");
   }
 }
+ş
